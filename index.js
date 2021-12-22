@@ -21,14 +21,20 @@ const employees = [
   {
     name: "Joyce",
     email: "joyce@creditap.in",
+    Phone:"9876543210",
+    designation:"Co-Founder/CFO/HR"
   },
   {
     name: "Vinesh Kumar",
-    email:'vinesh@creditap.in'
+    email:'vinesh@creditap.in',
+    phone:'1234567890',
+    designation:'GM'
   },
   {
       name:"Aravidan",
-      email:"aravindan@creditap.in"
+      email:"aravindan@creditap.in",
+      phone:"1234987650",
+      designation:'Founder/CEO'
   }
 ];
 router.get("/index", async (ctx) => {
